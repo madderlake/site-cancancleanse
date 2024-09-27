@@ -1,0 +1,33 @@
+$colorSecondaryDark: darken(#f8ad3a, 20%);
+$colorSecondaryLight: lighten(#f8ad3a, 7.5%);
+// $colorBodyTextDark: darken(#332e2e, 20%);
+
+:root {
+  --color-primary: #cb1107;
+  //--color-primary: #b62820;
+
+  --color-primary: #db2a27; // orig design
+  --color-primary-dark: #ac0e06;
+  --color-primary-dark: #93140d;
+  // --color-primary-dark: #{$colorPrimaryDark};
+  --color-primary-med: #b62821;
+  --color-secondary: #f8ad3a;
+  --color-secondary: #fdb916; // orig design
+  --color-secondary-dark: #{$colorSecondaryDark};
+  --color-secondary-light: #{$colorSecondaryLight};
+  --color-green: #78a842;
+  --color-white: #ffffff;
+  --color-ivory: #fffcf4;
+  // --color-green: #94b26a;
+  //--color-body-text: #323232;
+  --color-body-text: #000;
+
+  --font-abel-regular: 'Abel', 'Arial Narrow', Arial, san-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-hannah-reg: 'ywft_hannahregular', sans-serif;
+  --font-hannah-narrow: 'ymft-hannahnarrow', 'Arial Narrow', sans-serif;
+  --font-hannah-wide: 'ymft-hannahwide', sans-serif;
+  --border-radius: 0.25rem;
+
+  --font-komika-title: 'komika_titleregular', 'Georgia';
+}

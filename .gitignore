@@ -55,7 +55,7 @@ Thumbs.db
 .env*
 /cache
 /wp-content/upgrade*
-/wp-content/themes/cancan/_src
+/wp-content/themes/cancan/_src/node_modules
 /wp-content/themes/storefront/
 /wp-content/themes/twenty*
 /wp-content/plugins/*

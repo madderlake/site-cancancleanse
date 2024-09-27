@@ -1,0 +1,73 @@
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
+
+@mixin shadow-light {
+	box-shadow: 0 5px 8px 3px rgba(0,0,0, .05);
+}
+
+@mixin glow-light {
+	box-shadow: 0 5px 8px 3px rgba(255,255,255, .25);
+}
+
+@mixin blue-diag-gradient {
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#003865+1,0085ca+100 */
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00263e+19,0085ca+100 */
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00263e+19,0085ca+100 */
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00263e+1,0085ca+47,0085ca+58,00263e+100,00263e+100 */
+	//background: #00263e; /* Old browsers */
+	//background: -moz-linear-gradient(-45deg, #00263e 1%, #0085ca 47%, #0085ca 58%, #00263e 100%, #00263e 100%); /* FF3.6-15 */
+	//background: -webkit-linear-gradient(-45deg, #00263e 1%,#0085ca 47%,#0085ca 58%,#00263e 100%,#00263e 100%); /* Chrome10-25,Safari5.1-6 */
+	//background: linear-gradient(135deg, #00263e 1%,#0085ca 47%,#0085ca 58%,#00263e 100%,#00263e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	//filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00263e', endColorstr='#00263e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0085ca+0,003865+99 */
+background: #0085ca; /* Old browsers */
+background: -moz-linear-gradient(top, #0085ca 0%, #003865 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #0085ca 0%,#003865 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #0085ca 0%,#003865 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0085ca', endColorstr='#003865',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin green-diag-gradient {
+	background: #5c8216; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #5c8216 1%, #90b82e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, #5c8216 1%,#90b82e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, #5c8216 1%,#90b82e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5c8216', endColorstr='#90b82e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+@mixin lt-blue-wht-diag-gradient {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#71c5e8+1,ffffff+100 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a9e0+0,ffffff+99 */
+background: #00a9e0; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #00a9e0 0%, #ffffff 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #00a9e0 0%,#ffffff 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #00a9e0 0%,#ffffff 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a9e0', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

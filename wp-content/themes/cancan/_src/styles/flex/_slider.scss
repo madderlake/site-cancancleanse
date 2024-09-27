@@ -1,0 +1,43 @@
+.carousel{
+	&.light-gray-border {
+		padding: .35rem;
+	}
+}
+
+.carousel-indicators {
+
+	bottom: -3rem;
+
+	li{
+		background-color: $lt-sky-blue;
+		height: .5rem;
+
+		&.active {
+			background-color: $brand-blue;
+		}
+	}
+}
+
+.carousel-control-prev, .carousel-control-next {
+	color: $lt-gray !important;
+	font-size: 3rem;
+	//width: 12.5%;
+
+	&:hover, &:focus {
+		color: $brand-blue !important;
+	}
+
+	span {
+		display: inline-block;
+	}
+}
+
+.carousel-control-prev {
+	left: -4.5rem;
+	width: 7%;
+}
+
+.carousel-control-next {
+	right: -4.5rem;
+	width: 7%;
+}

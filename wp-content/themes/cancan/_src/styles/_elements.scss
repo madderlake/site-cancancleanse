@@ -1,0 +1,194 @@
+body {
+  font-family: var(--font-montserrat);
+  font-weight: 400;
+  background-color: var(--color-white);
+  color: var(--color-body-text);
+}
+
+a {
+  color: var(--color-primary-med);
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: 2px dotted var(--color-primary-med);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Abel', sans-serif;
+}
+
+h1 {
+  font-size: 2.625em;
+  text-transform: uppercase;
+  letter-spacing: 0.001em;
+  color: var(--color-primary);
+
+  &.page-title {
+    color: var(--color-primary);
+    margin-bottom: 1.625rem;
+  }
+
+  &.woocommerce-products-header__title {
+    border-bottom: 2px solid var(--color-primary-med);
+  }
+}
+
+h3 {
+  color: var(--color-primary-dark);
+  // color: var(--color-green);
+}
+
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'],
+.button,
+.widget a.button {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-dark);
+  border-radius: var(--border-radius);
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+}
+button.alt,
+input[type='button'].alt,
+input[type='reset'].alt,
+input[type='submit'].alt,
+.button.alt,
+.widget-area .widget a.button.alt {
+  background-color: var(--color-secondary);
+  color: var(--color-primary-dark);
+  border-radius: var(--border-radius);
+
+  &:hover {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+  }
+}
+.single-product div.product table.variations .label label {
+  font-weight: 700;
+
+  &:after {
+    content: ':';
+  }
+}
+.single-product div.product table.variations select {
+  appearance: none;
+  //display: none;
+  border-radius: 0.35rem;
+  padding: 0.35rem;
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+  color: white;
+  width: 100%;
+  max-width: 100%;
+
+  option {
+    background: white;
+    color: var(--color-body-text);
+    &:focus {
+      background: green;
+    }
+  }
+}
+.custom-select {
+  position: relative;
+  margin-top: 1rem;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    right: 20px;
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    border-color: #fff transparent transparent transparent;
+    pointer-events: none;
+  }
+}
+// .select2-search {
+//   display: none;
+// }
+// .select2-results {
+//   display: block;
+// }
+// .select2-results__options {
+//   list-style: none;
+//   margin: 0;
+// }
+
+// .select2-selection,
+// .select2-results__options {
+//   display: block;
+//   width: 80%;
+//   background-color: var(--color-primary);
+//   color: white;
+// }
+// .select-selected {
+//   background-color: var(--color-primary);
+// }
+
+// /*style the arrow inside the select element:*/
+// .select-selected:after {
+//   content: '';
+//   position: absolute;
+//   top: 40%;
+//   cursor: pointer;
+//   right: 20px;
+//   width: 0;
+//   height: 0;
+//   border: 10px solid transparent;
+//   border-color: #fff transparent transparent transparent;
+//   pointer-events: none;
+// }
+
+// /*point the arrow upwards when the select box is open (active):*/
+// .select-selected.select-arrow-active:after {
+//   border-color: transparent transparent #fff transparent;
+//   top: 7px;
+// }
+
+// /*style the items (options), including the selected item:*/
+// .select-items div,
+// .select-selected {
+//   color: #ffffff;
+//   padding: 8px 16px;
+//   border: 1px solid transparent;
+//   border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+//   cursor: pointer;
+//   user-select: none;
+// }
+
+// /*style items (options):*/
+// .select-items {
+//   position: absolute;
+//   background-color: var(--color-primary);
+//   top: 100%;
+//   left: 0;
+//   right: 0;
+//   z-index: 99;
+// }
+
+// /*hide the items when the select box is closed:*/
+// .select-hide {
+//   display: none;
+// }
+
+// .select-items div:hover,
+// .same-as-selected {
+//   background-color: rgba(0, 0, 0, 0.1);
+// }
+img {
+  border-radius: 0;
+}

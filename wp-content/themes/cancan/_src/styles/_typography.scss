@@ -1,0 +1,28 @@
+@import 'komika-font';
+@import 'ymft-hannah-font';
+
+.font-komika-title {
+  font-family: var(--font-komika-title);
+  letter-spacing: 0.05em;
+}
+
+.font-abel {
+  font-family: var(--font-abel-regular);
+}
+
+.font-montserrat {
+  font-family: var(--font-komika-title);
+}
+
+.font-hannah-reg {
+  font-family: var(--font-hannah-reg);
+  letter-spacing: 0.025em;
+}
+
+.font-hannah-narrow {
+  font-family: 'ywft_hannahnarrow';
+}
+
+.font-hannah-wide {
+  font-family: 'ywft_hannahwide';
+}

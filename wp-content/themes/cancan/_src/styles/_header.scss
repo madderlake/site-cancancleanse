@@ -1,0 +1,60 @@
+.storefront-secondary-navigation.woocommerce-active
+  .site-header
+  .site-branding {
+  width: auto; // ribbon width
+  max-width: 150px;
+  float: none;
+  position: absolute;
+  width: auto;
+  top: -250%;
+  left: 5.75%;
+
+  background-color: var(--color-primary-med);
+  //padding: 0.575rem;
+
+  &:after,
+  &:before {
+    content: '';
+    position: absolute;
+    border-top: 30px solid var(--color-primary-med); // angle degree, reduce to reduce degree of angles
+    height: 0; // no height, no content, just border
+    width: 0;
+    top: 100%;
+  }
+  &:after {
+    // right angle
+    border-left: 85px solid transparent;
+    right: 0;
+  }
+  &:before {
+    // left angle
+    border-right: 85px solid transparent;
+    left: 0;
+  }
+
+  .custom-logo-link {
+    //margin-top: -25%;
+    padding: 1rem 0.5rem;
+  }
+  @media screen and (max-width: 824px) {
+    width: 17%;
+  }
+}
+.top-bar {
+  width: 100%;
+  background-color: var(--color-primary);
+  .col-full {
+    justify-content: flex-end;
+  }
+  #menu-social-menu {
+    &.menu {
+      flex-direction: row;
+      margin: 0;
+      padding: 0;
+      margin-top: 0.5rem;
+    }
+    .menu-item {
+      margin: 0 0.275rem;
+    }
+  }
+}

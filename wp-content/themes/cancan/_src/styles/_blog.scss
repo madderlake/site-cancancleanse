@@ -1,0 +1,22 @@
+body.blog,
+body.archive {
+  .page-title {
+    color: var(--color-primary);
+    margin-bottom: 1.625rem;
+    font-family: var(--font-hannah-reg);
+    letter-spacing: 0.025em;
+    font-size: 3.5em;
+  }
+
+  .cancan-post-meta,
+  .entry-taxonomy {
+    font-family: var(--font-abel-regular);
+  }
+
+  .site-content .col-full {
+    @include bg-whitepaper;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: calc(75em - 4rem);
+  }
+}

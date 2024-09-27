@@ -1,0 +1,28 @@
+.column-wrap > div.acf-input > div > div.values.ui-sortable > div > div.acf-fields {
+	//display:flex !important;
+}
+
+
+.col-group > div.acf-input > .acf-fields {
+	display:flex !important;
+
+	.dyn-col {
+		flex: auto !important;
+	}
+}
+
+/*
+.col-group > div.acf-input > .acf-fields > .dyn-col {
+	flex:auto !important;
+}
+*/
+.col-width-wrap {
+	//background: pink;
+}
+
+/*
+#col-1, .dyn-col {
+		flex:auto !important;
+	}
+*/
+

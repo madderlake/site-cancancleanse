@@ -1,0 +1,10 @@
+@mixin bordered($width, $style, $color, $sides...) {
+  @each $side in $sides($sides) {
+    border-#{$side}: $width $style $color;
+  }
+}
+
+@mixin bg-whitepaper {
+  background-image: url('../imgs/whitepaper-tile4.jpg');
+  background-repeat: repeat;
+}
