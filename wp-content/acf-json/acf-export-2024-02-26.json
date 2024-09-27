@@ -1,0 +1,2277 @@
+[
+    {
+        "key": "group_59c6aa8c88414",
+        "title": "Flexible Content Template",
+        "fields": [
+            {
+                "key": "field_59c6aa8cbc50e",
+                "label": "Page Class",
+                "name": "page_class",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b58f3fc9ba0f",
+                "label": "Page Title",
+                "name": "page_title_group",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_5b58f41b9ba10",
+                        "label": "Page Title",
+                        "name": "page_title",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5b58f4369ba11",
+                        "label": "Page Title Class",
+                        "name": "page_title_class",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_59c6aa8cbc580",
+                "label": "Content Layouts",
+                "name": "content",
+                "aria-label": "",
+                "type": "flexible_content",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "layouts": {
+                    "59c6af379ff54": {
+                        "key": "59c6af379ff54",
+                        "name": "section",
+                        "label": "Section",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5aa1974e9c11c",
+                                "label": "Section Type",
+                                "name": "section_type",
+                                "aria-label": "",
+                                "type": "select",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "in-grid": "In Grid",
+                                    "full-width": "Full Width"
+                                },
+                                "default_value": "in-grid",
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "ajax": 0,
+                                "return_format": "value",
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_59c6af379ff55",
+                                "label": "Layout Name",
+                                "name": "layout_name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "This will not appear on the site. For reference only.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_59c6af379ff56",
+                                "label": "Anchor",
+                                "name": "section_anchor",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "Enter a short name here if there is smooth scrolling to sections (top)",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_59c6af379ff57",
+                                "label": "Title",
+                                "name": "section_title",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_59c6af379ff58",
+                                "label": "Title Classes",
+                                "name": "section_title_class",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_59c6af379ff59",
+                                "label": "Section Classes",
+                                "name": "section_class",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_59c6af379ff5a",
+                                "label": "Content",
+                                "name": "section_content",
+                                "aria-label": "",
+                                "type": "wysiwyg",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": [
+                                    [
+                                        {
+                                            "field": "field_5a9db4e3a104c",
+                                            "operator": "!=",
+                                            "value": "1"
+                                        }
+                                    ]
+                                ],
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            },
+                            {
+                                "key": "field_59c6c029888fb",
+                                "label": "Background Img",
+                                "name": "section_bg_img_group",
+                                "aria-label": "",
+                                "type": "group",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "layout": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_60aa771ede8a0",
+                                        "label": "Image",
+                                        "name": "section_bg_img",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "return_format": "url",
+                                        "preview_size": "medium",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "default_value": ""
+                                    },
+                                    {
+                                        "key": "field_60aa84e495bfa",
+                                        "label": "Bg Image Classes",
+                                        "name": "bg_img_classes",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "5af4944981f1a": {
+                        "key": "5af4944981f1a",
+                        "name": "columns",
+                        "label": "Columns",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5afc4b60a3ac3",
+                                "label": "Layout Name",
+                                "name": "layout_name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5af49c6b572b5",
+                                "label": "Section Type",
+                                "name": "section_type",
+                                "aria-label": "",
+                                "type": "select",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "in-grid": "In Container",
+                                    "full-width": "Full Width"
+                                },
+                                "default_value": "in-grid",
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "ajax": 0,
+                                "return_format": "value",
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_5af49032e6388",
+                                "label": "Number of Columns",
+                                "name": "num_columns",
+                                "aria-label": "",
+                                "type": "select",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "num_col",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "1": "One",
+                                    "2": "Two",
+                                    "3": "Three",
+                                    "4": "Four"
+                                },
+                                "default_value": false,
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "ajax": 0,
+                                "return_format": "value",
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_5afc4b72a3ac4",
+                                "label": "Section Title",
+                                "name": "section_title",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5afc4b84a3ac6",
+                                "label": "Title Classes",
+                                "name": "title_classes",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5afc4b7aa3ac5",
+                                "label": "Section Classes",
+                                "name": "section_classes",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_60ac198106b0b",
+                                "label": "Column Container Classes",
+                                "name": "col_container_classes",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5af49032e63c6",
+                                "label": "Column Group",
+                                "name": "col_group",
+                                "aria-label": "",
+                                "type": "group",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "col-group",
+                                    "id": ""
+                                },
+                                "layout": "block",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5af490347c967",
+                                        "label": "Column 1",
+                                        "name": "column_1",
+                                        "aria-label": "",
+                                        "type": "flexible_content",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "dyn-col",
+                                            "id": "col-1"
+                                        },
+                                        "layouts": {
+                                            "563b9c119066a": {
+                                                "key": "563b9c119066a",
+                                                "name": "content",
+                                                "label": "Content",
+                                                "display": "block",
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_5af4903507b9a",
+                                                        "label": "Column Width",
+                                                        "name": "width",
+                                                        "aria-label": "",
+                                                        "type": "group",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "col-width-wrap",
+                                                            "id": ""
+                                                        },
+                                                        "layout": "table",
+                                                        "sub_fields": [
+                                                            {
+                                                                "key": "field_5af490358828e",
+                                                                "label": "Desktop",
+                                                                "name": "desktop",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "desk-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 12,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            },
+                                                            {
+                                                                "key": "field_5af49035882aa",
+                                                                "label": "Tablet",
+                                                                "name": "tablet",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "tab-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 12,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            },
+                                                            {
+                                                                "key": "field_5af49035882b7",
+                                                                "label": "Mobile",
+                                                                "name": "mobile",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "ph-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 12,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "key": "field_5af4903507bb8",
+                                                        "label": "Class",
+                                                        "name": "class",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "maxlength": ""
+                                                    },
+                                                    {
+                                                        "key": "field_5af4903507bc5",
+                                                        "label": "Content",
+                                                        "name": "content",
+                                                        "aria-label": "",
+                                                        "type": "wysiwyg",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": "",
+                                                        "tabs": "all",
+                                                        "toolbar": "full",
+                                                        "media_upload": 1,
+                                                        "delay": 0
+                                                    }
+                                                ],
+                                                "min": "",
+                                                "max": ""
+                                            }
+                                        },
+                                        "button_label": "Add Content Block",
+                                        "min": "",
+                                        "max": ""
+                                    },
+                                    {
+                                        "key": "field_5af490347c99b",
+                                        "label": "Column 2",
+                                        "name": "column_2",
+                                        "aria-label": "",
+                                        "type": "flexible_content",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": [
+                                            [
+                                                {
+                                                    "field": "field_5af49032e6388",
+                                                    "operator": "==",
+                                                    "value": "2"
+                                                }
+                                            ],
+                                            [
+                                                {
+                                                    "field": "field_5af49032e6388",
+                                                    "operator": "==",
+                                                    "value": "3"
+                                                }
+                                            ],
+                                            [
+                                                {
+                                                    "field": "field_5af49032e6388",
+                                                    "operator": "==",
+                                                    "value": "4"
+                                                }
+                                            ]
+                                        ],
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "dyn-col",
+                                            "id": "col-2"
+                                        },
+                                        "layouts": {
+                                            "563b9c119066a": {
+                                                "key": "563b9c119066a",
+                                                "name": "content",
+                                                "label": "Content",
+                                                "display": "block",
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_5af4903996e22",
+                                                        "label": "Column Width",
+                                                        "name": "width",
+                                                        "aria-label": "",
+                                                        "type": "group",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "col-width-wrap",
+                                                            "id": ""
+                                                        },
+                                                        "layout": "table",
+                                                        "sub_fields": [
+                                                            {
+                                                                "key": "field_5af4903a223cc",
+                                                                "label": "Desktop",
+                                                                "name": "desktop",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "desk-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 6,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            },
+                                                            {
+                                                                "key": "field_5af4903a223ec",
+                                                                "label": "Tablet",
+                                                                "name": "tablet",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "tab-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 6,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            },
+                                                            {
+                                                                "key": "field_5af4903a223fb",
+                                                                "label": "Mobile",
+                                                                "name": "mobile",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "ph-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 12,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "key": "field_5af4903996e46",
+                                                        "label": "Class",
+                                                        "name": "class",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "maxlength": ""
+                                                    },
+                                                    {
+                                                        "key": "field_5af4903996e53",
+                                                        "label": "Content",
+                                                        "name": "content",
+                                                        "aria-label": "",
+                                                        "type": "wysiwyg",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": "",
+                                                        "tabs": "all",
+                                                        "toolbar": "full",
+                                                        "media_upload": 1,
+                                                        "delay": 0
+                                                    }
+                                                ],
+                                                "min": "",
+                                                "max": ""
+                                            }
+                                        },
+                                        "button_label": "Add Content Block",
+                                        "min": "",
+                                        "max": ""
+                                    },
+                                    {
+                                        "key": "field_5af490347c9ab",
+                                        "label": "Column 3",
+                                        "name": "column_3",
+                                        "aria-label": "",
+                                        "type": "flexible_content",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": [
+                                            [
+                                                {
+                                                    "field": "field_5af49032e6388",
+                                                    "operator": "==",
+                                                    "value": "3"
+                                                }
+                                            ],
+                                            [
+                                                {
+                                                    "field": "field_5af49032e6388",
+                                                    "operator": "==",
+                                                    "value": "4"
+                                                }
+                                            ]
+                                        ],
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "dyn-col",
+                                            "id": "col-3"
+                                        },
+                                        "layouts": {
+                                            "563b9c119066a": {
+                                                "key": "563b9c119066a",
+                                                "name": "content",
+                                                "label": "Content",
+                                                "display": "block",
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_5af4903e32356",
+                                                        "label": "Column Width",
+                                                        "name": "width",
+                                                        "aria-label": "",
+                                                        "type": "group",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "col-width-wrap",
+                                                            "id": ""
+                                                        },
+                                                        "layout": "table",
+                                                        "sub_fields": [
+                                                            {
+                                                                "key": "field_5af4903eb217e",
+                                                                "label": "Desktop",
+                                                                "name": "desktop",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "desk-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 6,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            },
+                                                            {
+                                                                "key": "field_5af4903eb21a3",
+                                                                "label": "Tablet",
+                                                                "name": "tablet",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "tab-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 6,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            },
+                                                            {
+                                                                "key": "field_5af4903eb21b9",
+                                                                "label": "Mobile",
+                                                                "name": "mobile",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "ph-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 12,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "key": "field_5af4903e323b0",
+                                                        "label": "Class",
+                                                        "name": "class",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "maxlength": ""
+                                                    },
+                                                    {
+                                                        "key": "field_5af4903e323dd",
+                                                        "label": "Content",
+                                                        "name": "content",
+                                                        "aria-label": "",
+                                                        "type": "wysiwyg",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": "",
+                                                        "tabs": "all",
+                                                        "toolbar": "full",
+                                                        "media_upload": 1,
+                                                        "delay": 0
+                                                    }
+                                                ],
+                                                "min": "",
+                                                "max": ""
+                                            }
+                                        },
+                                        "button_label": "Add Content Block",
+                                        "min": "",
+                                        "max": ""
+                                    },
+                                    {
+                                        "key": "field_5af490347c9b9",
+                                        "label": "Column 4",
+                                        "name": "column_4",
+                                        "aria-label": "",
+                                        "type": "flexible_content",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": [
+                                            [
+                                                {
+                                                    "field": "field_5af49032e6388",
+                                                    "operator": "==",
+                                                    "value": "4"
+                                                }
+                                            ]
+                                        ],
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "dyn-col",
+                                            "id": "col-4"
+                                        },
+                                        "layouts": {
+                                            "563b9c119066a": {
+                                                "key": "563b9c119066a",
+                                                "name": "content",
+                                                "label": "Content",
+                                                "display": "block",
+                                                "sub_fields": [
+                                                    {
+                                                        "key": "field_5af49042c5f48",
+                                                        "label": "Column Width",
+                                                        "name": "width",
+                                                        "aria-label": "",
+                                                        "type": "group",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "col-width-wrap",
+                                                            "id": ""
+                                                        },
+                                                        "layout": "table",
+                                                        "sub_fields": [
+                                                            {
+                                                                "key": "field_5af4904351d1a",
+                                                                "label": "Desktop",
+                                                                "name": "desktop",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "desk-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 6,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            },
+                                                            {
+                                                                "key": "field_5af4904351f9f",
+                                                                "label": "Tablet",
+                                                                "name": "tablet",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "tab-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 6,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            },
+                                                            {
+                                                                "key": "field_5af4904351fce",
+                                                                "label": "Mobile",
+                                                                "name": "mobile",
+                                                                "aria-label": "",
+                                                                "type": "select",
+                                                                "instructions": "",
+                                                                "required": 0,
+                                                                "conditional_logic": 0,
+                                                                "wrapper": {
+                                                                    "width": "",
+                                                                    "class": "ph-width",
+                                                                    "id": ""
+                                                                },
+                                                                "choices": {
+                                                                    "12": "100%",
+                                                                    "11": "90%",
+                                                                    "10": "85%",
+                                                                    "9": "75%",
+                                                                    "8": "66%",
+                                                                    "7": "60%",
+                                                                    "6": "50%",
+                                                                    "5": "40%",
+                                                                    "4": "33%",
+                                                                    "3": "25%",
+                                                                    "2": "15%",
+                                                                    "1": "10%"
+                                                                },
+                                                                "default_value": 12,
+                                                                "allow_null": 0,
+                                                                "multiple": 0,
+                                                                "ui": 0,
+                                                                "ajax": 0,
+                                                                "return_format": "value",
+                                                                "placeholder": ""
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "key": "field_5af49042c5f7d",
+                                                        "label": "Class",
+                                                        "name": "class",
+                                                        "aria-label": "",
+                                                        "type": "text",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": "",
+                                                        "placeholder": "",
+                                                        "prepend": "",
+                                                        "append": "",
+                                                        "maxlength": ""
+                                                    },
+                                                    {
+                                                        "key": "field_5af49042c5f9e",
+                                                        "label": "Content",
+                                                        "name": "content",
+                                                        "aria-label": "",
+                                                        "type": "wysiwyg",
+                                                        "instructions": "",
+                                                        "required": 0,
+                                                        "conditional_logic": 0,
+                                                        "wrapper": {
+                                                            "width": "",
+                                                            "class": "",
+                                                            "id": ""
+                                                        },
+                                                        "default_value": "",
+                                                        "tabs": "all",
+                                                        "toolbar": "full",
+                                                        "media_upload": 1,
+                                                        "delay": 0
+                                                    }
+                                                ],
+                                                "min": "",
+                                                "max": ""
+                                            }
+                                        },
+                                        "button_label": "Add Content Block",
+                                        "min": "",
+                                        "max": ""
+                                    }
+                                ]
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "59c6b38ba0ac1": {
+                        "key": "59c6b38ba0ac1",
+                        "name": "tab_set",
+                        "label": "Tab Set",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5aa702280bb90",
+                                "label": "Layout Name",
+                                "name": "layout_name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_59c6c4f4d4ea0",
+                                "label": "Tabset Name",
+                                "name": "tabset_name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "ga-tabs",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_59d02ca81cb8d",
+                                "label": "Tabset Class",
+                                "name": "tabset_class",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_59c6b3a1a0ac2",
+                                "label": "Tabs",
+                                "name": "tab",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "collapsed": "field_59c6aa8cc187a",
+                                "min": 0,
+                                "max": 0,
+                                "layout": "block",
+                                "button_label": "Add Row",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_59c6b73e6ebdb",
+                                        "label": "Active",
+                                        "name": "active",
+                                        "aria-label": "",
+                                        "type": "true_false",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "message": "",
+                                        "default_value": 1,
+                                        "ui": 1,
+                                        "ui_on_text": "",
+                                        "ui_off_text": "",
+                                        "parent_repeater": "field_59c6b3a1a0ac2"
+                                    },
+                                    {
+                                        "key": "field_59c6aa8cc187a",
+                                        "label": "Title",
+                                        "name": "tab_title",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "Title to appear on tab",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "50",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": "",
+                                        "parent_repeater": "field_59c6b3a1a0ac2"
+                                    },
+                                    {
+                                        "key": "field_59c6aa8cc180c",
+                                        "label": "Anchor",
+                                        "name": "tab_anchor",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "For deep-linking",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "50",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": "",
+                                        "parent_repeater": "field_59c6b3a1a0ac2"
+                                    },
+                                    {
+                                        "key": "field_59c6aa8cc1954",
+                                        "label": "Tab Classes",
+                                        "name": "tab_class",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": "",
+                                        "parent_repeater": "field_59c6b3a1a0ac2"
+                                    },
+                                    {
+                                        "key": "field_59c6aa8cc19c1",
+                                        "label": "Content",
+                                        "name": "tab_content",
+                                        "aria-label": "",
+                                        "type": "wysiwyg",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "tabs": "all",
+                                        "toolbar": "full",
+                                        "media_upload": 1,
+                                        "delay": 0,
+                                        "parent_repeater": "field_59c6b3a1a0ac2"
+                                    }
+                                ],
+                                "rows_per_page": 20
+                            },
+                            {
+                                "key": "field_5ab4261d9807d",
+                                "label": "Section Type",
+                                "name": "section_type",
+                                "aria-label": "",
+                                "type": "select",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "in-grid": "In Grid",
+                                    "full-width": "Full Width"
+                                },
+                                "default_value": "in-grid",
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "ajax": 0,
+                                "return_format": "value",
+                                "placeholder": ""
+                            }
+                        ],
+                        "min": "",
+                        "max": "1"
+                    },
+                    "5aa1c77aaac0b": {
+                        "key": "5aa1c77aaac0b",
+                        "name": "block_grid",
+                        "label": "Block Grid",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5aa1cbaef18a2",
+                                "label": "Section Type",
+                                "name": "section_type",
+                                "aria-label": "",
+                                "type": "select",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "in-grid": "In Grid",
+                                    "full-width": "Full Width"
+                                },
+                                "default_value": "in-grid",
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "ajax": 0,
+                                "return_format": "value",
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_5aa2d00eaa48f",
+                                "label": "Name",
+                                "name": "layout_name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "This will not appear on the site. For reference only.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5aa1daf8936c7",
+                                "label": "Section Class",
+                                "name": "section_class",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5aa1c8cbaac11",
+                                "label": "Section Title",
+                                "name": "section_title",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5aa1c8dbaac12",
+                                "label": "Title Class",
+                                "name": "title_class",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5aa1c7bbaac0c",
+                                "label": "Number of Columns",
+                                "name": "num_col",
+                                "aria-label": "",
+                                "type": "group",
+                                "instructions": "Determine how many items across for small, medium and large devices.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "layout": "table",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5aa1c830aac0d",
+                                        "label": "Phone",
+                                        "name": "phone",
+                                        "aria-label": "",
+                                        "type": "number",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": 1,
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "min": "",
+                                        "max": "",
+                                        "step": ""
+                                    },
+                                    {
+                                        "key": "field_5aa1c86baac0f",
+                                        "label": "Tablet",
+                                        "name": "tablet",
+                                        "aria-label": "",
+                                        "type": "number",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": 2,
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "min": "",
+                                        "max": "",
+                                        "step": ""
+                                    },
+                                    {
+                                        "key": "field_5aa1c881aac10",
+                                        "label": "Desktop",
+                                        "name": "desktop",
+                                        "aria-label": "",
+                                        "type": "number",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": 4,
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "min": "",
+                                        "max": "",
+                                        "step": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_5aa1c993458c5",
+                                "label": "Section Content",
+                                "name": "section_content",
+                                "aria-label": "",
+                                "type": "wysiwyg",
+                                "instructions": "This is usually the introductory paragraph before the block grid.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            },
+                            {
+                                "key": "field_5aa1c9c5458c6",
+                                "label": "Item",
+                                "name": "item",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "collapsed": "",
+                                "min": 0,
+                                "max": 0,
+                                "layout": "table",
+                                "button_label": "Add Item",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5aa1c9d4458c7",
+                                        "label": "Image",
+                                        "name": "image",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "return_format": "array",
+                                        "preview_size": "thumbnail",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "default_value": "",
+                                        "parent_repeater": "field_5aa1c9c5458c6"
+                                    },
+                                    {
+                                        "key": "field_5aa1ca1c458c8",
+                                        "label": "Label",
+                                        "name": "label",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": "",
+                                        "parent_repeater": "field_5aa1c9c5458c6"
+                                    }
+                                ],
+                                "rows_per_page": 20
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    },
+                    "5aa2ffce623a0": {
+                        "key": "5aa2ffce623a0",
+                        "name": "card_layout",
+                        "label": "Cards",
+                        "display": "block",
+                        "sub_fields": [
+                            {
+                                "key": "field_5aa2ffce623a1",
+                                "label": "Section Type",
+                                "name": "section_type",
+                                "aria-label": "",
+                                "type": "select",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "in-grid": "In Grid",
+                                    "full-width": "Full Width"
+                                },
+                                "default_value": "in-grid",
+                                "allow_null": 0,
+                                "multiple": 0,
+                                "ui": 0,
+                                "ajax": 0,
+                                "return_format": "value",
+                                "placeholder": ""
+                            },
+                            {
+                                "key": "field_5aa2ffce623a2",
+                                "label": "Name",
+                                "name": "layout_name",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "This will not appear on the site. For reference only.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5aa2ffce623a3",
+                                "label": "Section Class",
+                                "name": "section_class",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5aa2ffce623a4",
+                                "label": "Section Title",
+                                "name": "section_title",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5aa2ffce623a5",
+                                "label": "Title Class",
+                                "name": "title_class",
+                                "aria-label": "",
+                                "type": "text",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "maxlength": ""
+                            },
+                            {
+                                "key": "field_5aa2ffce623a6",
+                                "label": "Number of Columns",
+                                "name": "num_col",
+                                "aria-label": "",
+                                "type": "group",
+                                "instructions": "Determine how many items across for small, medium and large devices.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "50",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "layout": "table",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5aa2ffce623a7",
+                                        "label": "Phone",
+                                        "name": "phone",
+                                        "aria-label": "",
+                                        "type": "number",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": 1,
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "min": "",
+                                        "max": "",
+                                        "step": ""
+                                    },
+                                    {
+                                        "key": "field_5aa2ffce623a8",
+                                        "label": "Tablet",
+                                        "name": "tablet",
+                                        "aria-label": "",
+                                        "type": "number",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": 2,
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "min": "",
+                                        "max": "",
+                                        "step": ""
+                                    },
+                                    {
+                                        "key": "field_5aa2ffce623a9",
+                                        "label": "Desktop",
+                                        "name": "desktop",
+                                        "aria-label": "",
+                                        "type": "number",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": 4,
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "min": "",
+                                        "max": "",
+                                        "step": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "field_5aa2ffce623aa",
+                                "label": "Section Content",
+                                "name": "section_content",
+                                "aria-label": "",
+                                "type": "wysiwyg",
+                                "instructions": "This is usually the introductory paragraph before the block grid.",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "default_value": "",
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0
+                            },
+                            {
+                                "key": "field_5aa2ffce623ab",
+                                "label": "Card",
+                                "name": "card",
+                                "aria-label": "",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "collapsed": "",
+                                "min": 0,
+                                "max": 0,
+                                "layout": "table",
+                                "button_label": "Add Item",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_5aa2ffce623ac",
+                                        "label": "Image",
+                                        "name": "image",
+                                        "aria-label": "",
+                                        "type": "image",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "return_format": "array",
+                                        "preview_size": "thumbnail",
+                                        "library": "all",
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "default_value": "",
+                                        "parent_repeater": "field_5aa2ffce623ab"
+                                    },
+                                    {
+                                        "key": "field_5aa2ffce623ad",
+                                        "label": "Content",
+                                        "name": "card_content",
+                                        "aria-label": "",
+                                        "type": "textarea",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "maxlength": "",
+                                        "rows": "",
+                                        "new_lines": "",
+                                        "parent_repeater": "field_5aa2ffce623ab"
+                                    },
+                                    {
+                                        "key": "field_5aa3004b623ae",
+                                        "label": "Button",
+                                        "name": "button",
+                                        "aria-label": "",
+                                        "type": "group",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "layout": "block",
+                                        "sub_fields": [
+                                            {
+                                                "key": "field_5aa30061623af",
+                                                "label": "Button Link",
+                                                "name": "button_link",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "default_value": "\/",
+                                                "placeholder": "Button Destination",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_5aa30093623b0",
+                                                "label": "Button Class",
+                                                "name": "button_class",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "default_value": "btn-primary",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            },
+                                            {
+                                                "key": "field_5aa305779c79b",
+                                                "label": "Button Text",
+                                                "name": "button_text",
+                                                "aria-label": "",
+                                                "type": "text",
+                                                "instructions": "",
+                                                "required": 0,
+                                                "conditional_logic": 0,
+                                                "wrapper": {
+                                                    "width": "",
+                                                    "class": "",
+                                                    "id": ""
+                                                },
+                                                "default_value": "",
+                                                "placeholder": "",
+                                                "prepend": "",
+                                                "append": "",
+                                                "maxlength": ""
+                                            }
+                                        ],
+                                        "parent_repeater": "field_5aa2ffce623ab"
+                                    },
+                                    {
+                                        "key": "field_5aa30475d1f8a",
+                                        "label": "Card Title",
+                                        "name": "card_title",
+                                        "aria-label": "",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": 0,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": "",
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "default_value": "",
+                                        "placeholder": "",
+                                        "prepend": "",
+                                        "append": "",
+                                        "maxlength": "",
+                                        "parent_repeater": "field_5aa2ffce623ab"
+                                    }
+                                ],
+                                "rows_per_page": 20
+                            }
+                        ],
+                        "min": "",
+                        "max": ""
+                    }
+                },
+                "button_label": "Add Component",
+                "min": "",
+                "max": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "page-templates\/template-flex-content.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "excerpt",
+            "discussion",
+            "comments",
+            "author",
+            "format",
+            "send-trackbacks"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 1
+    }
+]

@@ -1,0 +1,36 @@
+*** Bistro Changelog ***
+
+2018.06.25 - version 1.0.10
+ * Fix - Load RTL stylesheet after main Storefront stylesheet.
+
+2018.05.03 - version 1.0.9
+ * Fix - Improves FontAwesome icons compatibility with Storefront 2.2 and 2.3.
+
+2018.04.30 - version 1.0.8
+ * Tweak - Storefront 2.3.0 compatibility.
+ * Fix - Fix hidden category child in mega menus.
+
+2018.01.23 - version 1.0.7
+ * Fix - Change triangle pattern units from em to px.
+
+2017.07.13 - version 1.0.6
+ * Fix - Remove negative top margin in Storefront Parallax Hero.
+
+2017.07.03 - version 1.0.5
+ * Fix - Invalid default body color.
+
+2017.03.29 - version 1.0.4
+ * Tweak - WooCommerce 3.0.0 compatibility.
+ * Fix - Breadcrumb styling on mobile.
+
+2017.02.15 - version 1.0.3
+ * Tweak - Storefront 2.2.0 compatibility.
+
+2016.10.11 - version 1.0.2
+ * Fix - Breadcrumb when paginating through product categories.
+
+2016.10.03 - version 1.0.1
+ * Fix - Menu dropdown animation.
+
+2016.09.06 - version 1.0.0
+ * Initial release.
